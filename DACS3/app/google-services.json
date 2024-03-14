@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649380930636",
+    "project_id": "dacs3-c747e",
+    "storage_bucket": "dacs3-c747e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649380930636:android:da86f75ce7ae02b25c40e9",
+        "android_client_info": {
+          "package_name": "com.lmh.minhhoang.dacs3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfwBv56vsYnlHbmNSJK3qe2uvsBxWDjHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
