@@ -1,7 +1,10 @@
 package com.lmh.minhhoang.dacs3
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.ktx.Firebase
 import com.lmh.minhhoang.dacs3.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -10,5 +13,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.logout.setOnClickListener{
+            logout()
+        }
+    }
+    private fun logout()
+    {
+        FirebaseAuth.getInstance().signOut()
+        val intent = Intent(this@MainActivity,LoginActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }
