@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         binding.logout.setOnClickListener{
             logout()
         }
+        binding.updateProfile.setOnClickListener {
+            updateProfile()
+        }
     }
     private fun logout()
     {
@@ -23,5 +26,10 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this@MainActivity,LoginActivity::class.java)
         startActivity(intent)
         finish()
+    }
+    private fun updateProfile()
+    {
+        val intent = Intent(this,UpdateProfileActivity::class.java)
+        startActivity(intent)
     }
 }
