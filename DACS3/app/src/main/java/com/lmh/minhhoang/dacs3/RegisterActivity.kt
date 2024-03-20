@@ -46,6 +46,8 @@ class RegisterActivity : AppCompatActivity() {
                     Firebase.firestore.collection("Users").document(fb.currentUser!!.uid).set(user)
                         .addOnSuccessListener {
                             Toast.makeText(applicationContext, "Đăng Kí Thành công", Toast.LENGTH_LONG).show()
+                            val intent = Intent(this@RegisterActivity,LoginActivity::class.java)
+                            startActivity(intent)
                         }
                 } else {
                     val errorMessage = task.exception?.message ?: "Lỗi không xác định"

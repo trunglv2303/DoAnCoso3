@@ -5,42 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fef5a08c-5009-4786-9488-e63c62664748" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DACS3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/androidTest/java/com/lmh/minhhoang/dacs3/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/java/com/lmh/minhhoang/dacs3/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/app/src/test/java/com/lmh/minhhoang/dacs3/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DACS3/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/androidTest/java/com/lmh/minhhoang/tuan8/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/java/com/lmh/minhhoang/tuan8/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/java/com/lmh/minhhoang/tuan8/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/java/com/lmh/minhhoang/tuan8/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/java/com/lmh/minhhoang/tuan8/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/app/src/test/java/com/lmh/minhhoang/tuan8/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan8/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DACS3/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/DACS3/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DACS3/app/src/main/java/com/lmh/minhhoang/dacs3/RegisterActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DACS3/app/src/main/java/com/lmh/minhhoang/dacs3/RegisterActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DACS3/app/src/main/java/com/lmh/minhhoang/dacs3/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/DACS3/app/src/main/java/com/lmh/minhhoang/dacs3/model/Users.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +69,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/DoAnCoso3"
+    "last_opened_file_path": "E:/DoAnCoso3",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
