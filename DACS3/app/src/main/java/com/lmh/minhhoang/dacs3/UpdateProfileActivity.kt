@@ -1,16 +1,12 @@
 package com.lmh.minhhoang.dacs3
 
-import android.content.ContentValues.TAG
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.auth.userProfileChangeRequest
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.firestore.toObject
 import com.google.firebase.ktx.Firebase
@@ -52,40 +48,11 @@ class UpdateProfileActivity : AppCompatActivity() {
     }
     private fun plusImage()
     {
+        
+    }
+    private fun update()
+    {
 
     }
-    private fun update() {
-        val user = Firebase.auth.currentUser
-        val name = binding.name.text.toString().trim()
-        val email = binding.email.text.toString().trim()
-        val phone = binding.numberPhone.text.toString().trim()
-        val address = binding.address.text.toString().trim()
-
-        val profileUpdates = userProfileChangeRequest {
-            displayName = name
-        }
-        user!!.updateProfile(profileUpdates)
-            .addOnCompleteListener { task ->
-                if (task.isSuccessful) {
-                    Toast.makeText(this@UpdateProfileActivity, "Profile updated successfully", Toast.LENGTH_LONG).show()
-
-                    val userUpdate = Firebase.firestore.collection("Users").document(user.uid)
-                    userUpdate.update("name", name)
-                    userUpdate.update("email", email)
-                    userUpdate.update("numberPhone", phone)
-                    userUpdate.update("address", address)
-                        .addOnSuccessListener {
-                            Log.d(TAG, "OK")
-                        }
-                        .addOnFailureListener { e ->
-                            Log.w(TAG, "No Ok", e)
-                        }
-                } else {
-                    Toast.makeText(this@UpdateProfileActivity, "Lỗi", Toast.LENGTH_LONG).show()
-                }
-            }
-    }
-
-
 }
 
